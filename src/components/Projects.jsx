@@ -3,6 +3,24 @@ import React from "react";
 
 const projects = [
   {
+    title: "SKATEAWQAY",
+    description:
+      "A frontend for clothing shop inspired by the good folks over Vans. This project is still under devolepment, but feel free to view it & intract with it!",
+    tech: "React",
+    codeLink: "https://github.com/SultanAlzahrani/SKATEAWAY",
+    liveLink: "https://skateaway.vercel.app/",
+    imageSrc: "../assets/skateaway.webp",
+  },
+  {
+    title: "GG: The Memory Card Game!",
+    description:
+      "A game that challenges & test your memeory. There's one simple rule: Don't pick the same card twice. There are three main diffecilty options. I recommend starting with easy.",
+    tech: "React",
+    codeLink: "https://github.com/SultanAlzahrani/GG-MemoryCardGame",
+    liveLink: "https://gg-memory-card-game.vercel.app/",
+    imageSrc: "../assets/ggcard.webp",
+  },
+  {
     title: "The Weather App",
     description:
       "I used The Weather API to build a simple front-end. Just type in the city, and it shows you the upcoming forecast. Easy as that!",

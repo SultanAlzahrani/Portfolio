@@ -80,6 +80,11 @@
   border-radius: 5px;
 }
 
+.project-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
 /* hobbies-section */
 
 .hobbies-section {
