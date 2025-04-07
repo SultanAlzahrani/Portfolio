@@ -7,7 +7,7 @@ function Header() {
     <header className="header-container">
       <div className="header-logo-title">
         <img src="../assets/jack-frost.webp" alt="Website Logo" />
-        <span>Sultan's Stash </span>
+        <span>Sultan's Stash [early build]</span>
       </div>
 
       <div className="header-buttons-container">
