@@ -3,7 +3,16 @@ import React from "react";
 
 const projects = [
   {
-    title: "SKATEAWQAY",
+    title: "Silly Spotify",
+    description:
+      "a web app for managing Spotify accounts, analyzing user listening trends, and remixing playlists using",
+    tech: "React Node.js",
+    codeLink: "will be up soon..",
+    liveLink: "https://skateaway.vercel.app/",
+    imageSrc: "../assets/SillySpotify.png",
+  },
+  {
+    title: "SKATEAWAY",
     description:
       "A frontend for clothing shop inspired by the good folks over Vans. This project is still under devolepment, but feel free to view it & intract with it!",
     tech: "React",
@@ -39,6 +48,15 @@ const projects = [
       "https://github.com/SultanAlzahrani/SultanAlzahrani.github.io/tree/main/DoWhat",
     liveLink: "https://sultanalzahrani.github.io/DoWhat/",
     imageSrc: "../assets/ToDo.webp",
+  },
+  {
+    title: "The Personal Blog",
+    description:
+      "A full-stack blogging platform with a front page, publishing page, and a server-side API for managing posts. Enabled efficient CRUD operations with a user-friendly interface",
+    tech: "React Node.js",
+    codeLink: "will be up soon..",
+    liveLink: "",
+    imageSrc: "",
   },
   {
     title: "Validation Form page",
