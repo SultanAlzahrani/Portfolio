@@ -57,6 +57,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding-top: 70px;
 }
 a {
   text-decoration: underline;
@@ -98,6 +99,10 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .light-mode {
   background-color: #000000;

@@ -1,7 +1,6 @@
-
 export default function Footer() {
   return (
-    <footer className="footer flex-col centerd">
+    <footer className="footer flex-col centerd" id="contact">
       <h2 className="title-vanilla">Catch me</h2>
       <div className="socials-container flex-row">
         <a

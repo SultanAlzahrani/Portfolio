@@ -1,6 +1,6 @@
 export default function Hobbies() {
   return (
-    <section className="hobbies-section flex-col centerd">
+    <section className="hobbies-section flex-col centerd" id="hobbies">
       <h2 className="title starting-title">Hobbies</h2>
       <div className="hobbies-list flex-row centerd">
         <span>Find out more about my hobbies by visting my </span>

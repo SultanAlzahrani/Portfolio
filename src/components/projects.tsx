@@ -140,7 +140,7 @@ const expand = [
 ];
 export default function Projects() {
   return (
-    <section className="projects-section flex-col centerd">
+    <section className="projects-section flex-col centerd" id="projects">
       <h2 className="title starting-title">Projects</h2>
       {projects.map((project, index) => (
         <Project project={project} index={index} />
