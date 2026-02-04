@@ -103,6 +103,11 @@ a {
 .dark-mode {
   background-color: #e4e3e3;
 }
+
+.switch-theme-container {
+  cursor: pointer;
+  text-align: center;
+}
 .switch-theme-button img {
   height: 2rem;
   width: 2rem;
