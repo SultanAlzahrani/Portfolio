@@ -51,7 +51,7 @@ body {
   flex-direction: column;
   background-color: var(--background-color);
   color: var(--text-color);
-  background-image: url("./sidebg.png");
+  background-image: url("../sidebg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

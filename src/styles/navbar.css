@@ -1,13 +1,13 @@
 :root {
   --nav-color: #71a196;
   --nav-text-color: #000000;
-  --menu-icon: url("./menu-black.svg");
+  --menu-icon: url("../menu-black.svg");
 }
 
 [data-theme="dark"] {
   --nav-color: #132031;
   --nav-text-color: rgba(255, 255, 255, 0.87);
-  --menu-icon: url("./menu-white.png");
+  --menu-icon: url("../menu-white.png");
 }
 
 .override-navbar {
