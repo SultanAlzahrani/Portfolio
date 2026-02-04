@@ -1,0 +1,30 @@
+:root {
+  --nav-color: #71a196;
+  --nav-text-color: #000000;
+  --menu-icon: url("./menu-black.svg");
+}
+
+[data-theme="dark"] {
+  --nav-color: #132031;
+  --nav-text-color: rgba(255, 255, 255, 0.87);
+  --menu-icon: url("./menu-white.png");
+}
+
+.override-navbar {
+  background-color: var(--nav-color) !important;
+  color: var(--nav-text-color) !important;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.container a {
+  color: var(--nav-text-color) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: var(--menu-icon) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

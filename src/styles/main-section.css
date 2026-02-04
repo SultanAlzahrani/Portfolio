@@ -1,0 +1,107 @@
+:root {
+  --main-secton-background: #d4d2c2;
+}
+
+[data-theme="dark"] {
+  --main-secton-background: #161616;
+}
+
+.main-container,
+.main-section,
+.welcome-section,
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  position: relative;
+}
+.main-section {
+  background-color: var(--main-secton-background);
+  width: 70%;
+  opacity: 0.9;
+  gap: 2rem;
+}
+.main-section img {
+  max-width: 100%;
+  border: #ffffff 2px solid;
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+}
+
+.welcome-section {
+  padding: 2rem;
+  text-align: center;
+  gap: 1.5rem;
+  height: 100dvh;
+}
+
+.welcome-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.welcome-section h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.welcome-section h4 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.skills-section {
+  gap: 1rem;
+}
+.icons-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.skills-section {
+  margin: 1rem;
+  width: 100%;
+  /* margin-bottom: 6rem; */
+}
+.icon-override {
+  font-size: 2rem !important;
+  border: none;
+  border-radius: 0;
+}
+
+/* Hobbies */
+
+.hobbies-section {
+  width: 100%;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  .main-section {
+    width: 90%;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-section {
+    width: 97%;
+    gap: 1rem;
+  }
+
+  .inner-project {
+    flex-direction: column !important;
+  }
+
+  .proj-img-container {
+    text-align: center;
+  }
+
+  .project-title {
+    font-weight: 600;
+  }
+}
