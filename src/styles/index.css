@@ -37,12 +37,14 @@ html {
   --background-color: #ffffff;
   --text-color: #000000;
   --border-color: #0000007e;
+  --switch-theme-img: url("../moon.png");
 }
 
 [data-theme="dark"] {
   --background-color: #111110;
   --text-color: rgba(255, 255, 255, 0.87);
   --border-color: #ffffff7e;
+  --switch-theme-img: url("../sun.png");
 }
 
 body {
@@ -99,18 +101,31 @@ a {
 }
 .light-mode {
   background-color: #000000;
+  /* background-image: var(--switch-theme-img); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .dark-mode {
   background-color: #e4e3e3;
+  /* background-image: var(--switch-theme-img); */
 }
 
 .switch-theme-container {
   cursor: pointer;
   text-align: center;
+  text-align: center;
 }
 .switch-theme-button img {
   height: 2rem;
   width: 2rem;
+}
+
+.theme-icon-holder {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  text-align: center;
 }
 
 .title {

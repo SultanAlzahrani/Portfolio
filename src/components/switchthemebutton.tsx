@@ -25,7 +25,12 @@ function SwitchThemeButton() {
         className={`switch-theme-button ${theme === "dark" ? "dark-mode" : "light-mode"}`}
         onClick={toggleTheme}
       >
-        <img src={theme === "dark" ? "./sun.png" : "./moon.png"} alt="" />
+        <img
+          className="theme-icon-holder"
+          src={theme === "dark" ? "./sun.png" : "./moon.png"}
+          alt=""
+        />
+        {/* <span className="theme-icon-holder"></span> */}
       </button>
     </div>
   );
