@@ -20,7 +20,7 @@ function NavbarTop() {
         <Navbar.Brand href="#home">Sultan's Stash</Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-          onClick={() => setExpanded(expanded ? false : "expanded")}
+          onClick={() => setExpanded(!expanded)}
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto override-navbar-nav">
